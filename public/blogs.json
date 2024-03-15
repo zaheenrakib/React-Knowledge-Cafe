@@ -1,0 +1,53 @@
+[
+    {
+      "id": 1,
+      "cover": "https://example.com/cover1.jpg",
+      "title": "Lorem Ipsum",
+      "author": "John Doe",
+      "author_img": "https://example.com/author1.jpg",
+      "posted_date": "Mar 14 (4 days ago)",
+      "reading_time": 10,
+      "hashtags": ["Lorem", "Ipsum", "Article"]
+    },
+    {
+      "id": 2,
+      "cover": "https://example.com/cover2.jpg",
+      "title": "Dolor Sit Amet",
+      "author": "Jane Smith",
+      "author_img": "https://example.com/author2.jpg",
+      "posted_date": "Feb 14 (4 days ago)",
+      "reading_time": 15,
+      "hashtags": ["Dolor", "SitAmet", "Article"]
+    },
+    {
+      "id": 3,
+      "cover": "https://example.com/cover3.jpg",
+      "title": "Consectetur Adipiscing",
+      "author": "Alice Johnson",
+      "author_img": "https://example.com/author3.jpg",
+      "posted_date": "Nov 14 (4 days ago)",
+      "reading_time": 12,
+      "hashtags": ["Consectetur", "Adipiscing", "Article"]
+    },
+    {
+      "id": 4,
+      "cover": "https://example.com/cover4.jpg",
+      "title": "Sed Do Eiusmod",
+      "author": "Bob Williams",
+      "author_img": "https://example.com/author4.jpg",
+      "posted_date": "2022-02-16",
+      "reading_time": 20,
+      "hashtags": ["Sed", "Eiusmod", "Article"]
+    },
+    {
+      "id": 5,
+      "cover": "https://example.com/cover5.jpg",
+      "title": "Tempor Incididunt",
+      "author": "Emily Brown",
+      "author_img": "https://example.com/author5.jpg",
+      "posted_date": "June 14 (4 days ago)",
+      "reading_time": 18,
+      "hashtags": ["Tempor", "Incididunt", "Article"]
+    }
+  ]
+  
