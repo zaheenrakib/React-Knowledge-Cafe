@@ -4,7 +4,7 @@ import { useState } from "react";
 import Blog from '../Blog/Blog';
 
 
-const Blogs = ({handleAddToBookmark}) => {
+const Blogs = ({handleAddToBookmark ,handleMarkRead}) => {
 
     const [blogs, setBlogs] = useState([]);
 
@@ -22,6 +22,7 @@ const Blogs = ({handleAddToBookmark}) => {
                     key={blog.key}
                     blog={blog}
                     handleAddToBookmark={handleAddToBookmark}
+                    handleMarkRead={handleMarkRead}
                     ></Blog>)
             }
         </div>
@@ -30,7 +31,8 @@ const Blogs = ({handleAddToBookmark}) => {
 
 Blogs.propTypes ={
     Blog: PropTypes.object.isRequired,
-    handleAddToBookmark: PropTypes.func.isRequired
+    handleAddToBookmark: PropTypes.func.isRequired,
+    handleMarkRead: PropTypes.func.isRequired
 }
 
 export default Blogs;
